@@ -1,0 +1,13 @@
+# hello.phy
+from std import print
+
+mass = 2.0 ± 0.1 kg
+velocity = 10.0 ± 0.5 m/s
+energy = 0.5 × mass × velocity²
+
+print("$energy")
+
+fn kinetic(m, v):
+    0.5 × m × v²
+
+kinetic(m, v) ≜ 0.5 × m × v²
